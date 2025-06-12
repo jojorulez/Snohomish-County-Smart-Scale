@@ -90,3 +90,13 @@ The survey is applied to all assignment types in Workforce. The Dashboard also p
 **ID:** 6816bfbff1354d67b0a8f333e1577e5a
 
 This map includes all ballot box locations in Snohomish County. To change or add locations, modify this layer and ensure it’s referenced correctly in the Route Tool using the name as it appears in the file.
+
+---
+## A note about further improvements
+One improvement I explored was adding an option for manually entering routes after the route summary is printed. This would allow users to either modify the automatically generated routes or skip the route optimization step entirely. The idea behind this is to let users continue using the code for the Workforce and Dashboard sections, even if the optimized routes aren't used.
+
+When using Workforce manually, some of the Dashboard’s route-related functionality is lost. To preserve this, I experimented with manually recreating the routes and stops dataframes that the route optimization tool normally produces. By matching the structure and content of these dataframes, you would be able to override the ones created during optimization. Since all downstream processes (like dispatching to Workforce and updating the Dashboard) rely on these dataframes, replacing them with correctly formatted versions allows the rest of the code to run unchanged.
+
+It’s just an idea, but I think it could help make the tool more flexible while preserving key features.
+
+
