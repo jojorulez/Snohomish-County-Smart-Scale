@@ -1,7 +1,7 @@
 ## Route Tool  
+**ArcGIS Notebooks**
 **Ballot Collection Routes Notebook**  
 **ID:**  6220738b0916481f9e1ac2b9f7edcb87
-ArcGIS Notebooks
 
 This tool was designed to take in parameters for routing such as open ballot boxes, workers, maximum number of stops, maximum route length and duration, and create optimal routes for ballot collection pickup. The user has the ability to dispatch the created routes to the Snohomish County Ballot Collection Dashboard and batch assign stops to their team in Workforce. The code should be generally user friendly with user inputs clearly labelled and explained before each chunk of code. If at any point, the user decides that the routes created are not useful, assignments can always be created manually in Workforce.
 
@@ -17,10 +17,10 @@ This tool was designed to take in parameters for routing such as open ballot box
 
 ---
 
-## Dashboard  
+## Dashboard 
+**ArcGIS Dashboards**
 **Snohomish County Ballot Collection Dashboard**  
 **ID:** 0f045666ab1e441aa6aaa0d539b85b29  
-ArcGIS Dashboards
 
 A visualization of current routes, collection teams’ progress, and locations. Allows for a simple view of assignment lists and team progress. Once the connection is completed, it also includes a placeholder for smart scale data.
 
@@ -32,9 +32,9 @@ A visualization of current routes, collection teams’ progress, and locations. 
 ---
 
 ## Workforce  
+**ArcGIS Workforce**
 **Snohomish County Ballot Collection**  
 **ID:** 157bf167353e4db3a9e3f739937d0535 (Feature Service)  
-ArcGIS Workforce
 
 This tool allows the collection lead to dispatch assignments to collection teams and track their progress. This is not accessible through the folder and must be accessed through Workforce directly. Workers can use the ArcGIS Workforce app on their phones. They will also need to install ArcGIS Survey123 for corresponding surveys at each box.
 
