@@ -11,7 +11,7 @@ This tool was designed to take in parameters for routing such as open ballot box
 - The route tool may give Darrington its own route if the parameters aren't resticting enough. This can always be adjusted manually in Workforce.
 - The route creation step uses 1 credit for every route created. It’s recommended to save parameters for common scenarios to create good routes on the first run and save credits.
 - Adding the workers in by their exact name is very important. Make sure they are already added as Workers in Workforce.
-- There is a code chunk at the bottom that deletes old Workforce assignments. Old assignments are hidden from the map but not actually deleted. If things run slow or issues arise, run this code to clear out old data. This does not need to happen very often.
+- There is a code chunk at the bottom that deletes old Workforce assignments. Old assignments are hidden from the map but not actually deleted. If things are running slow or issues arise, run this code to clear out old data. This does not need to happen very often.
 - ArcGIS Notebooks will allow the kernel to disconnect quickly. To ensure everything runs properly, run all the code quickly and avoid idle time. If it disconnects, you will need to reload and re-run all cells.
 - Notebooks does not have an autosave feature - I learned this the hard way.
 
