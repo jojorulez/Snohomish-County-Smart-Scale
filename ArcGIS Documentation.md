@@ -18,9 +18,9 @@ This tool was designed to take in parameters for routing such as open ballot box
 ---
 
 ## Dashboard 
-**ArcGIS Dashboards**
 **Snohomish County Ballot Collection Dashboard**  
-**ID:** 0f045666ab1e441aa6aaa0d539b85b29  
+**ID:** 0f045666ab1e441aa6aaa0d539b85b29   
+ArcGIS Dashboards   
 
 A visualization of current routes, collection teams’ progress, and locations. Allows for a simple view of assignment lists and team progress. Once the connection is completed, it also includes a placeholder for smart scale data.
 
@@ -32,9 +32,9 @@ A visualization of current routes, collection teams’ progress, and locations. 
 ---
 
 ## Workforce  
-**ArcGIS Workforce**
 **Snohomish County Ballot Collection**  
-**ID:** 157bf167353e4db3a9e3f739937d0535 (Feature Service)  
+**ID:** 157bf167353e4db3a9e3f739937d0535 (Feature Service)   
+ArcGIS Workforce
 
 This tool allows the collection lead to dispatch assignments to collection teams and track their progress. This is not accessible through the folder and must be accessed through Workforce directly. Workers can use the ArcGIS Workforce app on their phones. They will also need to install ArcGIS Survey123 for corresponding surveys at each box.
 
@@ -49,45 +49,45 @@ This tool allows the collection lead to dispatch assignments to collection teams
 ---
 
 ## Dispatcher Map  
-**ArcGIS Web Map**  
 **Snohomish County Ballot Collection Dispatcher Map**  
-**ID:** 7e59e3112937498aae7024b98cf7013a
+**ID:** 7e59e3112937498aae7024b98cf7013a   
+ArcGIS Web Map   
 
 This map was created from the Workforce project. Layers for routes, stops, and ballot box locations were added to make them visible in Workforce and on the Dashboard. You can hide or filter layers. These changes are reflected in both Workforce and the Dashboard.
 
 ---
 
 ## Routes Layer  
-**ArcGIS Feature Service**  
 **Name:** Routes_Layer  
-**ID:** cc05a86529604439b9bf47bf1ad58f69
+**ID:** cc05a86529604439b9bf47bf1ad58f69   
+ArcGIS Feature Service  
 
 This is updated by the route tool when new routes are created and is visualized on the Snohomish County Ballot Collection Dispatcher Map.
 
 ---
 
 ## Stops Layer  
-**ArcGIS Feature Service**  
 **Name:** Stops_Layer  
-**ID:** 1ede5afe0360411a8299a92c869a6040
+**ID:** 1ede5afe0360411a8299a92c869a6040   
+ArcGIS Feature Service   
 
 This is updated by the route tool when new routes are created and is visualized on the Snohomish County Ballot Collection Dispatcher Map.
 
 ---
 
 ## Survey  
-**ArcGIS Survey123**  
 **Name:** Ballot Collection Survey FINAL  
-**ID:** f72ab5c725964ef09b2ab672d62d5831
+**ID:** f72ab5c725964ef09b2ab672d62d5831   
+ArcGIS Survey123   
 
 The survey is applied to all assignment types in Workforce. The Dashboard also pulls survey data, such as the number of blue ballot tubs collected. Survey data is collected and viewable by those the survey is shared with.
 
 ---
 
-## Ballot Box Locations Map  
-**ArcGIS Feature Service**  
+## Ballot Box Locations Map   
 **Name:** ballotboxlocationOD  
-**ID:** 6816bfbff1354d67b0a8f333e1577e5a
+**ID:** 6816bfbff1354d67b0a8f333e1577e5a   
+ArcGIS Feature Service   
 
 This map includes all ballot box locations in Snohomish County. To change or add locations, modify this layer and ensure it’s referenced correctly in the Route Tool using the name as it appears in the file.
 
