@@ -1,8 +1,7 @@
 ## Route Tool
 **Ballot Collection Routes Notebook**  
 **ID:**  6220738b0916481f9e1ac2b9f7edcb87
-
-**ArcGIS Notebooks** 
+ArcGIS Notebooks
 
 This tool was designed to take in parameters for routing such as open ballot boxes, workers, maximum number of stops, maximum route length and duration, and create optimal routes for ballot collection pickup. The user has the ability to dispatch the created routes to the Snohomish County Ballot Collection Dashboard and batch assign stops to their team in Workforce. The code should be generally user friendly with user inputs clearly labelled and explained before each chunk of code. If at any point, the user decides that the routes created are not useful, assignments can always be created manually in Workforce.
 
