@@ -19,7 +19,7 @@ This tool was designed to take in parameters for routing such as open ballot box
 
 ## Dashboard 
 **Snohomish County Ballot Collection Dashboard**  
-**ID:** 0f045666ab1e441aa6aaa0d539b85b29   
+**ID:** 0f045666ab1e441aa6aaa0d539b85b29    
 ArcGIS Dashboards   
 
 A visualization of current routes, collection teams’ progress, and locations. Allows for a simple view of assignment lists and team progress. Once the connection is completed, it also includes a placeholder for smart scale data.
