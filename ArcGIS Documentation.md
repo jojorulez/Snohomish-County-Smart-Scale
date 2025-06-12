@@ -1,4 +1,4 @@
-# Route Tool  
+## Route Tool  
 **Ballot Collection Routes Notebook**  
 **ID:**  
 ArcGIS Notebooks
@@ -18,7 +18,7 @@ This tool was designed to take in parameters for routing such as open ballot box
 
 ---
 
-# Dashboard  
+## Dashboard  
 **Snohomish County Ballot Collection Dashboard**  
 **ID:** 0f045666ab1e441aa6aaa0d539b85b29  
 ArcGIS Dashboards
@@ -34,7 +34,7 @@ A visualization of current routes, collection teams’ progress, and locations. 
 
 ---
 
-# Workforce  
+## Workforce  
 **Snohomish County Ballot Collection**  
 **ID:** 157bf167353e4db3a9e3f739937d0535 (Feature Service)  
 ArcGIS Workforce
@@ -50,7 +50,7 @@ This tool allows the collection lead to dispatch assignments to collection teams
 
 ---
 
-# Dispatcher Map  
+## Dispatcher Map  
 **ArcGIS Web Map**  
 **Snohomish County Ballot Collection Dispatcher Map**  
 **ID:** 7e59e3112937498aae7024b98cf7013a
@@ -59,7 +59,7 @@ This map was created from the Workforce project. Layers for routes, stops, and b
 
 ---
 
-# Routes Layer  
+## Routes Layer  
 **ArcGIS Feature Service**  
 **Name:** Routes_Layer  
 **ID:** cc05a86529604439b9bf47bf1ad58f69
@@ -68,7 +68,7 @@ This is updated by the route tool when new routes are created and is visualized 
 
 ---
 
-# Stops Layer  
+## Stops Layer  
 **ArcGIS Feature Service**  
 **Name:** Stops_Layer  
 **ID:** 1ede5afe0360411a8299a92c869a6040
@@ -77,7 +77,7 @@ This is updated by the route tool when new stops are created and is visualized o
 
 ---
 
-# Survey  
+## Survey  
 **ArcGIS Survey123**  
 **Name:** Ballot Collection Survey FINAL  
 **ID:** f72ab5c725964ef09b2ab672d62d5831
@@ -86,7 +86,7 @@ The survey is applied to all assignment types in Workforce. The Dashboard also p
 
 ---
 
-# Ballot Box Locations Map  
+## Ballot Box Locations Map  
 **ArcGIS Feature Service**  
 **Name:** ballotboxlocationOD  
 **ID:** 6816bfbff1354d67b0a8f333e1577e5a
